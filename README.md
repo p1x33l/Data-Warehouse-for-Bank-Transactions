@@ -9,4 +9,4 @@
 
 <h3><li>Used Technologies & Tools:</li></h3>
 
-<img src="https://www.imovo.com.mt/wp-content/uploads/2022/02/talend-logo.png" height=50/>         <img height=50 src="https://assets.stickpng.com/images/58481057cef1014c0b5e4951.png"/>          <img height=50 src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png">
+<img src="https://www.imovo.com.mt/wp-content/uploads/2022/02/talend-logo.png" height=50/>         <img height=50 src="https://pngfind.com/pngs/m/74-744138_mysql-logo-png-mysql-transparent-png.png"/>          <img height=50 src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png">

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_a0YDIIz1Ee2oTa6EoxJ3Ww" name="clients" dataPackage="_a0YDL4z1Ee2oTa6EoxJ3Ww" JSONFilePath="C:/Users/p1x33l/Desktop/M2SI/new/S1/2eme partie/Data Warehouse/projet/source/clients.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_a0YDIYz1Ee2oTa6EoxJ3Ww" LimitBoucle="50" AbsoluteXPathQuery="$.results[*]">
+      <schemaTargets xmi:id="_a0YDIoz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="id" TagName="id"/>
+      <schemaTargets xmi:id="_a0YDI4z1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="fullname" TagName="fullname"/>
+      <schemaTargets xmi:id="_a0YDJIz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="address" TagName="address"/>
+      <schemaTargets xmi:id="_a0YDJYz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="phone_number" TagName="phone_number"/>
+      <schemaTargets xmi:id="_a0YDJoz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="email" TagName="email"/>
+      <schemaTargets xmi:id="_a0YDJ4z1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="workplace" TagName="workplace"/>
+      <schemaTargets xmi:id="_a0YDKIz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="birthdate" TagName="birthdate"/>
+      <schemaTargets xmi:id="_a0YDKYz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="registration_date" TagName="registration_date"/>
+      <schemaTargets xmi:id="_a0YDKoz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="gender" TagName="gender"/>
+      <schemaTargets xmi:id="_a0YDK4z1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="income" TagName="income"/>
+      <schemaTargets xmi:id="_a0YDLIz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="expenses" TagName="expenses"/>
+      <schemaTargets xmi:id="_a0YDLYz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="credit" TagName="credit"/>
+      <schemaTargets xmi:id="_a0YDLoz1Ee2oTa6EoxJ3Ww" RelativeXPathQuery="deposit" TagName="deposit"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_a0YDL4z1Ee2oTa6EoxJ3Ww" name="default" dataManager="_a0YDIIz1Ee2oTa6EoxJ3Ww">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_a0YqMIz1Ee2oTa6EoxJ3Ww" id="_5fC2IIz0Ee2oTa6EoxJ3Ww" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqMYz1Ee2oTa6EoxJ3Ww" label="id" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqMoz1Ee2oTa6EoxJ3Ww" label="fullname" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqM4z1Ee2oTa6EoxJ3Ww" label="address" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqNIz1Ee2oTa6EoxJ3Ww" label="phone_number" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqNYz1Ee2oTa6EoxJ3Ww" label="email" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqNoz1Ee2oTa6EoxJ3Ww" label="workplace" length="66" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqN4z1Ee2oTa6EoxJ3Ww" label="birthdate" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqOIz1Ee2oTa6EoxJ3Ww" label="registration_date" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqOYz1Ee2oTa6EoxJ3Ww" label="gender" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqOoz1Ee2oTa6EoxJ3Ww" label="income" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqO4z1Ee2oTa6EoxJ3Ww" label="expenses" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqPIz1Ee2oTa6EoxJ3Ww" label="credit" length="-1" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a0YqPYz1Ee2oTa6EoxJ3Ww" label="deposit" length="-1" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
